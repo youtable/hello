@@ -1,0 +1,170 @@
+@charset "utf-8";
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.5/dist/web/static/pretendard.css");
+/*
+========================================================================
+RESET
+========================================================================
+*/
+
+.ani2 {
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+.ani3 {
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.ani5 {
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+.ani1 {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+
+html, body {
+    
+    font-family: pretendard, sans-serif; font-size:14px;
+    background:#000;
+    color:#fff;
+}
+html, body, pre,
+h1, h2, h3, h4, h5, h6,
+dl, dt, dd, ul, li, ol,
+th, td, p, blockquote,
+form, fieldset, legend,
+menu, nav, section, hgroup, article, header, aside, footer,
+input, select, textarea, button {
+    margin: 0;
+    padding: 0;
+
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+img, fieldset,button {
+    border:0 none;
+}
+img {
+    vertical-align: middle;
+    max-width:100%;
+}
+li {
+    list-style: none;
+}
+hr, caption, legend {
+    display: none;
+}
+a {
+    text-decoration: none;
+    outline:none; select-dummy: expression(this.hideFocus=true);
+}
+:focus { outline:none; }
+
+a:hover,
+a:active,
+a:focus {text-decoration:none;}
+
+button {
+    overflow: hidden;
+    cursor: pointer;
+}
+button span {
+    visibility: hidden;
+}
+address, em {
+    font-style: normal;
+}
+button, input, select, textarea, a {
+    vertical-align: middle;background: none;
+    border: 0 none;
+}
+select {
+    cursor: pointer;
+}
+input[type="checkbox"]{cursor: pointer;}
+input:focus {
+    outline: none;
+}
+label{vertical-align: middle;}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+    word-wrap: break-word;
+    word-break: keep-all;
+}
+
+*,
+*:before,
+*:after {-webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;}
+
+
+
+/* bold */
+.bold { font-weight: bold; }
+.te-c { text-align:center; }
+.te-l { text-align:left; }
+.te-r { text-align:right; }
+/* float clear */
+.clear {zoom: 1;}
+.clear:after {content: ""; display: block; clear: both;}
+
+/* margin */
+.mr-5 { margin-right: 5px;}
+.mr-10 { margin-right: 10px; }
+.mr-15 { margin-right: 15px; }
+.mr-20 { margin-right: 20px; }
+.ml-5 { margin-left: 5px; }
+.ml-10 { margin-left: 10px; }
+.ml-15 { margin-left: 15px; }
+.ml-20 { margin-left: 20px; }
+.ml-25 { margin-left: 25px; }
+.mt-5 { margin-top: 5px; }
+.mt-10 { margin-top: 10px; }
+.mt-15 { margin-top: 15px; }
+.mt-20 { margin-top: 20px; }
+.mt-50 { margin-top: 50px; }
+.mb-5 { margin-bottom: 5px; }
+.mb-10 { margin-bottom: 10px; }
+.mb-15 { margin-bottom: 15px; }
+.mb-20 { margin-bottom: 20px; }
+.mb-25 { margin-bottom: 25px; }
+/* padding */
+.pr-5 { padding-right: 5px; }
+.pr-10 { padding-right: 10px; }
+.pr-15 { padding-right: 15px; }
+.pr-20 { padding-right: 20px; }
+.pl-5 { padding-left: 5px; }
+.pl-10 { padding-left: 10px; }
+.pl-15 { padding-left: 15px; }
+.pl-20 { padding-left: 20px; }
+.pl-30 { padding-left: 30px; }
+.pt-5 { padding-top: 5px; }
+.pt-10 { padding-top: 10px; }
+.pt-15 { padding-top: 15px; }
+.pt-20 { padding-top: 20px; }
+.pt-25 { padding-top: 25px; }
+.pt-50 { padding-top: 50px; }
+.pb-5 { padding-bottom: 5px; }
+.pb-10 { padding-bottom: 10px; }
+.pb-15 { padding-bottom: 15px; }
+.pb-20 { padding-bottom: 20px; }
+.pb-25 { padding-bottom: 25px; }
+.pb-50 { padding-bottom: 25px; }
+/* header, gnb */
